@@ -18,11 +18,11 @@ $file = fopen("./Set_pergunta.csv", "r");
 		
 		
 		
-	print_r($exploded);
+	//print_r($exploded);
 		
 		
 		
-	//echo $sql = trim("INSERT INTO [dbo].[tabela_pos_perguntas] VALUES($Id_Pergunta,'$pergunra',$Destino_Sim,$Destino_Nao);").'<br>';
+	echo $sql = trim("INSERT INTO [dbo].[tabela_pos_perguntas] VALUES($Id_Pergunta,'$pergunra',$Destino_Sim,$Destino_Nao);").'<br>';
 	/*	
 	
 		if(!sqlsrv_query($conn, $sql)){
